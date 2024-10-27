@@ -1,3 +1,4 @@
+import Link from "./Link";
 
 export default function Nav() {
 
@@ -15,7 +16,7 @@ export default function Nav() {
     <div>
         <ul className="flex gap-6">
             {
-                routes.map((route)=> <li key={route.id}><a href={route.path}>{route.name}</a></li>)
+                routes.map((route)=> <Link key={route.id} route={route}></Link>)
             }
         </ul>
     </div>
