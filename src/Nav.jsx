@@ -21,7 +21,7 @@ export default function Nav() {
         }
         
       </div>
-      <ul className="flex gap-6">
+      <ul className={`md:flex duration-1000 gap-6 absolute md:static bg-slate-100 p-6 shadow-lg ${open ? 'top-10' : '-top-60'}`}>
         {routes.map((route) => (
           <Link key={route.id} route={route}></Link>
         ))}
