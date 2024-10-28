@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 
+
 export default function Link({route}) {
     console.log(typeof route);
   return (
@@ -9,6 +10,6 @@ export default function Link({route}) {
   );
 }
 
-Link.proptypes ={
+Link.propTypes ={
     route:PropTypes.object.isRequired
 }
