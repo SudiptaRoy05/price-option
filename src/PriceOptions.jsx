@@ -105,9 +105,9 @@ export default function PriceOptions() {
       ];
       
   return (
-    <div>
+    <div className="px-2">
       <h2>Best price in the city</h2>
-      <div className="grid md:grid-cols-3 gap-6 m-12">
+      <div className="grid md:grid-cols-3 gap-6">
         {priceOptions.map((option) => (
           <PriceOption key={option.id} option={option}></PriceOption>
         ))}
