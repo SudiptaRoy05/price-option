@@ -24,7 +24,6 @@ export default function LineChart() {
             <Line dataKey='math' type={'monotone'} stroke='yellow'></Line>
             <Line dataKey='english' type={'monotone'} stroke='red'></Line>
             <Line dataKey='science' type={'monotone'} stroke='green'></Line>
-
         </LC>
     </div>
   )
